@@ -5,20 +5,18 @@
     "vitest.config.*",
     "cypress.config.*",
     "nightwatch.conf.*",
-    "playwright.config.*",
+    "playwright.config.*"
   ],
   "compilerOptions": {
     "verbatimModuleSyntax": false,
-    "allowJs": true,
-    "target": "ESNext",
+    "composite": true,
     "noEmit": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "types": [
       "vue",
-      "node",
-      "vue3-toastify/global"
+      "node"
     ]
-  },
+  }
 }

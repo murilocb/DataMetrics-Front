@@ -44,8 +44,12 @@ const getChartData = (): ChartDataEntry => {
   if (store.getData !== null && store.getData.porcentagemStatus !== null) {
     return store.getData.porcentagemStatus
   } else {
-    // Retorne dados padrão vazios
-    return []
+    // Return default values if data is not available
+    return {
+      ativa: 0,
+      cancelada: 0,
+      trial: 0
+    }
   }
 }
 
