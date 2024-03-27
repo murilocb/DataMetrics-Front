@@ -6,7 +6,7 @@
       Selecione o arquivo:
     </label>
     <div class="relative">
-      <button class="bg-emerald-500 text-gray-900 py-2 px-4 rounded mb-2" @click="addFile">
+      <button class="bg-button text-white font-bold py-2 px-4 rounded mb-2" @click="addFile">
         Selecionar Arquivo
       </button>
       <input
@@ -26,7 +26,7 @@
     </div>
 
     <button
-      class="bg-emerald-500 text-gray-900 py-2 px-4 rounded mt-4"
+      class="bg-button text-white font-bold py-2 px-4 rounded mt-4"
       @click="fileUpload"
       :disabled="!file"
     >
