@@ -1,6 +1,6 @@
-# teste-copybase-front
+# DataMetrics-front
 
-Este é o frontend do projeto de teste da aplicação Copybase. Este projeto foi desenvolvido utilizando Node.js, Vue.js e Tailwind CSS.
+Este projeto foi desenvolvido utilizando Node.js, Vue.js e Tailwind CSS.
 
 Na pasta tem o `.env.exemple` com os dados para conexão com o back-end, copie para um novo arquivo `.env`
 
